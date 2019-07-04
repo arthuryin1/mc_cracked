@@ -1,0 +1,20 @@
+[
+  {
+    "uuid": "36881d51-7477-3eb6-91a1-dfc11065590d",
+    "name": "admin",
+    "level": 2,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "a03bb037-329e-3635-9692-b98ee4f3b2cc",
+    "name": "arthuryin",
+    "level": 2,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "b484a619-e0a8-3814-8225-6c9b0f100abe",
+    "name": "arthur",
+    "level": 2,
+    "bypassesPlayerLimit": false
+  }
+]
