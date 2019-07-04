@@ -1,0 +1,29 @@
+lastAccountName: rckh
+timestamps:
+  login: 1562163766120
+  lastteleport: 1562165357615
+  logout: 1562165370561
+ipAddress: 119.237.148.17
+lastlocation:
+  world: world
+  x: -18.127742653926816
+  y: 64.0
+  z: -319.1403805132481
+  yaw: 78.15485
+  pitch: 15.450003
+homes:
+  home:
+    world: world
+    x: -24.90203571840334
+    y: 85.0
+    z: -331.30559400804276
+    yaw: 259.50168
+    pitch: 23.099995
+afk: false
+logoutlocation:
+  world: world
+  x: -22.700000025331974
+  y: 85.5625
+  z: -331.700000025332
+  yaw: 44.40158
+  pitch: 16.200006

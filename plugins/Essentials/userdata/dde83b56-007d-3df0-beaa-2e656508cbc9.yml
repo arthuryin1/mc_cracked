@@ -1,0 +1,30 @@
+lastAccountName: Sigh_Caloy
+timestamps:
+  login: 1562254504178
+  lastteleport: 1562254193935
+  logout: 1562254521040
+ipAddress: 210.6.61.166
+lastlocation:
+  world: world
+  x: -114.51580187731709
+  y: 68.0
+  z: 131.9970317619553
+  yaw: 214.04262
+  pitch: 34.350018
+logoutlocation:
+  world: world
+  x: -101.0828679023726
+  y: 58.5
+  z: 130.44372983484303
+  yaw: 86.53436
+  pitch: -2.250019
+homes:
+  home:
+    world: world
+    x: -117.70000002533197
+    y: 68.0000002
+    z: 137.29999997466803
+    yaw: -5.8572793
+    pitch: 12.449988
+godmode: false
+nickname: HKpolice

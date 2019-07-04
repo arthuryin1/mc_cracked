@@ -1,0 +1,20 @@
+lastAccountName: arthur
+timestamps:
+  login: 1561912559337
+  lastteleport: 1561915582710
+  logout: 1561915959418
+ipAddress: 127.0.0.1
+lastlocation:
+  world: world
+  x: 310.8904434758813
+  y: 86.84170245367802
+  z: 2398.150266054458
+  yaw: 132.28543
+  pitch: 31.049992
+logoutlocation:
+  world: world
+  x: 1455.7778861109568
+  y: 95.4872589353895
+  z: -40.79177448270496
+  yaw: 21.1497
+  pitch: 28.950151

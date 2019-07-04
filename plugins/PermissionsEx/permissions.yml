@@ -1,0 +1,39 @@
+groups:
+  default:
+    options:
+      default: true
+    permissions:
+    - essentials.back
+    - essentials.afk
+    - essentials.spawn
+    - essentials.balance
+    - essentials.sethome
+    - essentials.rules
+    - essentials.motd
+    - essentials.msg.*
+    - essentials.help
+    - essentials.suicide
+    - essentials.signs.use.free
+    - essentials.signs.use.buy
+    - essentials.depth
+    - essentials.eco.*
+    - essentials.getpos
+    - essentials.home
+    - essentials.mail.*
+    - essentials.me
+    - essentials.list
+    - essentials.near
+    - essentials.ping
+    - essentials.pay
+    - essentials.nick
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpahere
+    - essentials.tpdeny
+    - modifyworld.*
+  admin:
+    inheritance:
+    - default
+    permissions:
+    - essentials.*
+schema-version: 1
