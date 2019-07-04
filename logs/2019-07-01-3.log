@@ -1,0 +1,208 @@
+[00:28:20] [Server thread/INFO]: Starting minecraft server version 1.14.3
+[00:28:20] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: The handle is invalid
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_161]
+	at java.io.FileInputStream.read(FileInputStream.java:255) ~[?:1.8.0_161]
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246) ~[?:1.8.0_161]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265) ~[?:1.8.0_161]
+	at org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:248) ~[spigot-1.14.3.jar:git-Spigot-4d2f30f-f1f3355]
+	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:261) ~[spigot-1.14.3.jar:git-Spigot-4d2f30f-f1f3355]
+	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:198) ~[spigot-1.14.3.jar:git-Spigot-4d2f30f-f1f3355]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2145) ~[spigot-1.14.3.jar:git-Spigot-4d2f30f-f1f3355]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLineSimple(ConsoleReader.java:3183) ~[spigot-1.14.3.jar:git-Spigot-4d2f30f-f1f3355]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2333) ~[spigot-1.14.3.jar:git-Spigot-4d2f30f-f1f3355]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2269) ~[spigot-1.14.3.jar:git-Spigot-4d2f30f-f1f3355]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2257) ~[spigot-1.14.3.jar:git-Spigot-4d2f30f-f1f3355]
+	at net.minecraft.server.v1_14_R1.DedicatedServer$2.run(DedicatedServer.java:97) [spigot-1.14.3.jar:git-Spigot-4d2f30f-f1f3355]
+[00:28:20] [Server thread/INFO]: Loading properties
+[00:28:21] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-4d2f30f-f1f3355 (MC: 1.14.3) (Implementing API version 1.14.3-SNAPSHOT)
+[00:28:21] [Server thread/INFO]: Debug logging is disabled
+[00:28:21] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[00:28:21] [Server thread/INFO]: Using 4 threads for Netty based IO
+[00:28:21] [Server thread/INFO]: Default game type: SURVIVAL
+[00:28:21] [Server thread/INFO]: Generating keypair
+[00:28:22] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:28:22] [Server thread/INFO]: Using default channel type
+[00:28:31] [Server thread/WARN]: Plugin PermissionsEx v1.23.4 does not specify an api-version.
+[00:28:31] [Server thread/WARN]: Plugin AutoSaveWorld v4.15 does not specify an api-version.
+[00:28:32] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[00:28:32] [Server thread/WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
+[00:28:32] [Server thread/INFO]: [AutoSaveWorld] Loading AutoSaveWorld v4.15
+[00:28:32] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v13.7.0-SNAPSHOT
+[00:28:32] [Server thread/INFO]: [LockettePro] Loading LockettePro v2.9.5-1.14
+[00:28:32] [Server thread/INFO]: [Essentials] Loading Essentials v2.17.0.0
+[00:28:32] [Server thread/INFO]: [EssentialsProtect] Loading EssentialsProtect v2.17.0.0
+[00:28:32] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.17.0.0
+[00:28:32] [Server thread/INFO]: [AutoSaveWorld] Enabling AutoSaveWorld v4.15
+[00:28:32] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:28:32] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:28:32] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:28:32] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:28:32] [Server thread/INFO]: Preparing level "world"
+[00:28:33] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[00:28:34] [Server thread/INFO]: Loaded 6 recipes
+[00:28:35] [Server thread/INFO]: -------- World Settings For [world] --------
+[00:28:35] [Server thread/INFO]: View Distance: 10
+[00:28:35] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[00:28:35] [Server thread/INFO]: Experience Merge Radius: 3.0
+[00:28:35] [Server thread/INFO]: Mob Spawn Range: 4
+[00:28:35] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[00:28:35] [Server thread/INFO]: Cane Growth Modifier: 100%
+[00:28:35] [Server thread/INFO]: Melon Growth Modifier: 100%
+[00:28:35] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[00:28:35] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[00:28:35] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[00:28:35] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[00:28:35] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[00:28:35] [Server thread/INFO]: Potato Growth Modifier: 100%
+[00:28:35] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[00:28:35] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[00:28:35] [Server thread/INFO]: Vine Growth Modifier: 100%
+[00:28:35] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[00:28:35] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[00:28:35] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[00:28:35] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[00:28:35] [Server thread/INFO]: Max TNT Explosions: 100
+[00:28:35] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[00:28:35] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[00:28:35] [Server thread/INFO]: Item Merge Radius: 2.5
+[00:28:35] [Server thread/INFO]: Item Despawn Rate: 6000
+[00:28:35] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[00:28:35] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[00:28:35] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[00:28:47] [Server thread/INFO]: Starting minecraft server version 1.14.3
+[00:28:47] [Server thread/INFO]: Loading properties
+[00:28:48] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-4d2f30f-f1f3355 (MC: 1.14.3) (Implementing API version 1.14.3-SNAPSHOT)
+[00:28:48] [Server thread/INFO]: Debug logging is disabled
+[00:28:48] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[00:28:48] [Server thread/INFO]: Using 4 threads for Netty based IO
+[00:28:48] [Server thread/INFO]: Default game type: SURVIVAL
+[00:28:48] [Server thread/INFO]: Generating keypair
+[00:28:49] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:28:49] [Server thread/INFO]: Using default channel type
+[00:28:54] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
+[00:28:54] [Server thread/WARN]: The exception was: java.net.BindException: Address already in use: bind
+[00:28:54] [Server thread/WARN]: Perhaps a server is already running on that port?
+[00:28:54] [Server thread/INFO]: Stopping server
+[00:28:54] [Server thread/INFO]: Saving players
+[00:28:55] [Server thread/INFO]: Saving worlds
+h Modifier: 100%
+[00:28:35] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[00:28:35] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[00:28:35] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[00:28:35] [Server thread/INFO]: Max TNT Explosions: 100
+[00:28:35] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[00:28:35] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[00:28:35] [Server thread/INFO]: Item Merge Radius: 2.5
+[00:28:35] [Server thread/INFO]: Item Despawn Rate: 6000
+[00:28:35] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[00:28:35] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[00:28:35] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[00:28:35] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[00:28:35] [Server thread/INFO]: View Distance: 10
+[00:28:35] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[00:28:35] [Server thread/INFO]: Experience Merge Radius: 3.0
+[00:28:35] [Server thread/INFO]: Mob Spawn Range: 4
+[00:28:35] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[00:28:35] [Server thread/INFO]: Cane Growth Modifier: 100%
+[00:28:35] [Server thread/INFO]: Melon Growth Modifier: 100%
+[00:28:35] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[00:28:35] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[00:28:35] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[00:28:35] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[00:28:35] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[00:28:35] [Server thread/INFO]: Potato Growth Modifier: 100%
+[00:28:35] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[00:28:35] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[00:28:35] [Server thread/INFO]: Vine Growth Modifier: 100%
+[00:28:35] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[00:28:35] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[00:28:35] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[00:28:35] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[00:28:35] [Server thread/INFO]: Max TNT Explosions: 100
+[00:28:35] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[00:28:35] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[00:28:35] [Server thread/INFO]: Item Merge Radius: 2.5
+[00:28:35] [Server thread/INFO]: Item Despawn Rate: 6000
+[00:28:35] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[00:28:35] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[00:28:35] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[00:28:35] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
+[00:28:39] [Server thread/INFO]: Preparing spawn area: 0%
+[00:28:39] [Server thread/INFO]: Preparing spawn area: 0%
+[00:28:39] [Server thread/INFO]: Preparing spawn area: 0%
+[00:28:39] [Server thread/INFO]: Preparing spawn area: 0%
+[00:28:39] [Server thread/INFO]: Preparing spawn area: 0%
+[00:28:39] [Server thread/INFO]: Preparing spawn area: 0%
+[00:28:39] [Server thread/INFO]: Preparing spawn area: 0%
+[00:28:39] [Server thread/INFO]: Preparing spawn area: 0%
+[00:28:45] [Server-Worker-2/INFO]: Preparing spawn area: 0%
+[00:28:45] [Server-Worker-2/INFO]: Preparing spawn area: 0%
+[00:28:45] [Server-Worker-2/INFO]: Preparing spawn area: 0%
+[00:28:45] [Server-Worker-2/INFO]: Preparing spawn area: 0%
+[00:28:45] [Server-Worker-2/INFO]: Preparing spawn area: 0%
+[00:28:45] [Server-Worker-2/INFO]: Preparing spawn area: 0%
+[00:28:45] [Server-Worker-2/INFO]: Preparing spawn area: 0%
+[00:28:45] [Server-Worker-2/INFO]: Preparing spawn area: 0%
+[00:28:45] [Server-Worker-2/INFO]: Preparing spawn area: 0%
+[00:28:45] [Server-Worker-2/INFO]: Preparing spawn area: 0%
+[00:28:45] [Server-Worker-2/INFO]: Preparing spawn area: 0%
+[00:28:45] [Server-Worker-2/INFO]: Preparing spawn area: 0%
+[00:28:45] [Server thread/INFO]: Preparing spawn area: 0%
+[00:28:46] [Server thread/INFO]: Preparing spawn area: 60%
+[00:28:47] [Server thread/INFO]: Time elapsed: 11640 ms
+[00:28:47] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
+[00:28:49] [Server thread/INFO]: Preparing spawn area: 0%
+[00:28:49] [Server thread/INFO]: Preparing spawn area: 0%
+[00:28:49] [Server thread/INFO]: Preparing spawn area: 0%
+[00:28:49] [Server thread/INFO]: Preparing spawn area: 0%
+[00:28:49] [Server thread/INFO]: Preparing spawn area: 0%
+[00:28:50] [Server-Worker-2/INFO]: Preparing spawn area: 83%
+[00:28:50] [Server-Worker-2/INFO]: Preparing spawn area: 83%
+[00:28:51] [Server-Worker-1/INFO]: Preparing spawn area: 83%
+[00:28:51] [Server-Worker-2/INFO]: Preparing spawn area: 83%
+[00:28:52] [Server-Worker-1/INFO]: Preparing spawn area: 83%
+[00:28:52] [Server-Worker-1/INFO]: Preparing spawn area: 89%
+[00:28:53] [Server-Worker-2/INFO]: Preparing spawn area: 89%
+[00:28:53] [Server thread/INFO]: Time elapsed: 5823 ms
+[00:28:53] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
+[00:28:53] [Server thread/INFO]: Preparing spawn area: 0%
+[00:28:53] [Server-Worker-1/INFO]: Preparing spawn area: 83%
+[00:28:54] [Server-Worker-2/INFO]: Preparing spawn area: 83%
+[00:28:54] [Server thread/INFO]: Preparing spawn area: 83%
+[00:28:54] [Server thread/INFO]: Time elapsed: 1580 ms
+[00:28:54] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[00:28:55] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[00:28:55] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[00:28:55] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v13.7.0-SNAPSHOT
+[00:28:55] [Server thread/INFO]: [SkinsRestorer] Detected Minecraft v1_14_R1, using UniversalSkinFactory.
+[00:28:57] [Server thread/INFO]: [LockettePro] Enabling LockettePro v2.9.5-1.14
+[00:28:57] [Server thread/INFO]: [LockettePro] ProtocolLib is not found!
+[00:28:57] [Server thread/INFO]: [LockettePro] UUID & expiracy support requires ProtocolLib, or else signs will be ugly!
+[00:28:57] [Server thread/INFO]: [Essentials] Enabling Essentials v2.17.0.0
+[00:28:57] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[00:28:57] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[00:28:57] [Server thread/INFO]: No kits found to migrate.
+[00:28:57] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[00:28:57] [Server thread/INFO]: [Essentials] Using 1.13+ flat spawn egg provider as spawn egg provider.
+[00:28:58] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[00:28:58] [Server thread/INFO]: Loaded 20977 items from items.json.
+[00:28:58] [Server thread/INFO]: Using locale en_US
+[00:28:58] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[00:28:58] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[00:28:58] [Server thread/WARN]: [Essentials] Detected supported permissions plugin PermissionsEx without Vault installed.
+[00:28:58] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[00:28:58] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[00:28:58] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect v2.17.0.0
+[00:28:58] [Server thread/INFO]: [EssentialsProtect] Continuing to enable Protect.
+[00:28:58] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.17.0.0
+[00:28:58] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[00:28:58] [Server thread/INFO]: Done (25.824s)! For help, type "help"
+[00:28:59] [Craft Scheduler Thread - 1/INFO]: [SkinsRestorer] ----------------------------------------------
+[00:28:59] [Craft Scheduler Thread - 1/INFO]: [SkinsRestorer]     +===============+
+[00:28:59] [Craft Scheduler Thread - 1/INFO]: [SkinsRestorer]     | SkinsRestorer |
+[00:28:59] [Craft Scheduler Thread - 1/INFO]: [SkinsRestorer]     +===============+
+[00:28:59] [Craft Scheduler Thread - 1/INFO]: [SkinsRestorer] ----------------------------------------------
+[00:28:59] [Craft Scheduler Thread - 1/INFO]: [SkinsRestorer]     Current version: 13.7.0-SNAPSHOT
+[00:28:59] [Craft Scheduler Thread - 1/INFO]: [SkinsRestorer]     This is the latest version!
+[00:28:59] [Craft Scheduler Thread - 1/INFO]: [SkinsRestorer] ----------------------------------------------
